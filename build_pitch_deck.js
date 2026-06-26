@@ -65,7 +65,7 @@ function addCard(slide, x, y, w, h, title, body) {
   slide.addShape(pptx.ShapeType.ellipse, { x: 8.2, y: -0.6, w: 6.2, h: 4.0, fill: { color: theme.cyan, transparency: 78 } });
   slide.addShape(pptx.ShapeType.ellipse, { x: 4.0, y: 4.4, w: 7.0, h: 4.2, fill: { color: theme.ok, transparency: 86 } });
   addTitle(slide, 'Matelligence', 'Material intelligence that removes guesswork from sourcing and product development.');
-  slide.addText('hello@matelligence.xyz', { x: 0.92, y: 5.0, w: 6.5, h: 0.4, color: theme.muted, fontFace: 'Inter', fontSize: 13 });
+  slide.addText('hello@matelligence.online', { x: 0.92, y: 5.0, w: 6.5, h: 0.4, color: theme.muted, fontFace: 'Inter', fontSize: 13 });
   slide.addText('May 2026', { x: 10.0, y: 6.9, w: 3.0, h: 0.4, color: theme.muted, fontFace: 'Inter', fontSize: 12, align: 'right' });
 }
 
@@ -149,7 +149,7 @@ function addCard(slide, x, y, w, h, title, body) {
   addSectionTitle(slide, 'What we’re building next', 'We’re looking for design partners to shape the product.');
 
   addCard(slide, 0.9, 3.1, 6.1, 3.4, 'Design partners', 'Teams with active material sourcing challenges willing to share requirements and pilot workflows.');
-  addCard(slide, 7.2, 3.1, 5.2, 3.4, 'Call to action', 'Request a demo and bring a real product requirement.\n\nhello@matelligence.xyz');
+  addCard(slide, 7.2, 3.1, 5.2, 3.4, 'Call to action', 'Request a demo and bring a real product requirement.\n\nhello@matelligence.online');
   addFooter(slide, 'matelligence');
 }
 
